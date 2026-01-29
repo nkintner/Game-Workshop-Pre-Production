@@ -158,9 +158,20 @@
 		<property name="extentMode">
 			<value>1</value>
 		</property>
+		<property name="soundSize">
+			<value>8</value>
+		</property>
 		<property name="minimumExtent">
 			<value>360</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{8a139deb-3293-4683-b21b-4ad67b84be45}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{7d0f653a-5c93-4929-93aa-a245f7183cd5}" />
+	<object class="RandomizerModulator" id="{8a139deb-3293-4683-b21b-4ad67b84be45}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>soundSize</value>
+		</property>
+	</object>
 </objects>
