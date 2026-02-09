@@ -95,6 +95,9 @@
 		<property name="volume">
 			<value>-12</value>
 		</property>
+		<property name="pitch">
+			<value>-1.20000005</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{125dd3a9-859c-4ac9-94ef-7035c2f556f9}</destination>
 			<destination>{7a34a200-1798-4d6d-a685-7bb8a2e250f5}</destination>
@@ -170,6 +173,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{ccef6305-78ba-4146-96de-bffe9b32b717}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{e7ad8534-ac8c-4672-bf66-2fc3c59cc32b}</destination>
 		</relationship>
